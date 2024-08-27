@@ -1,0 +1,72 @@
+.app_header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #dcdcdc;
+}
+
+.app_header > form {
+    width: 40%;
+}
+
+/* input box */
+.task_input {
+    font-size: 1.25rem;
+    font-weight: 500;
+    background: #f9f9f9;
+    color: #000;
+    border: 1px solid #dfe3e6;
+    border-radius: 0.3125rem;
+    padding: 0.5rem 0.75rem;
+    margin-bottom: 0.9375rem;
+    width: 100%;
+}
+
+/* input box -placeholder */
+.task_input::placeholder {
+    color: #686868;
+}
+
+/* for using button, dropdown and submit button */
+.task_form_bottom_line {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* using for HTML, CSS, Javascript, React button */
+.tag {
+    font-size: 0.875rem;
+    font-weight: 500;
+    background-color: #f9f9f9;
+    border: 1px solid #dfe3e6;
+    border-radius: 0.3125rem;
+    padding: 0.125rem 0.625rem;
+    margin-right: 0.625rem;
+    cursor: pointer;
+}
+
+/* using for dropdown */
+.task_status {
+    font-size: 1rem;
+    font-weight: 500;
+    border: 1px solid #999;
+    border-radius: 0.3125rem;
+    width: 7.5rem;
+    height: 2.5rem;
+    padding: 0 0.3125rem;
+}
+
+/* using for Add task button */
+.task_submit {
+    font-size: 1rem;
+    font-weight: 500;
+    background-color: #6457f9;
+    color: #fff;
+    border-radius: 0.3125rem;
+    height: 2.5rem;
+    padding: 0.1875rem 0.8125rem;
+    margin-left: 0.625rem;
+    border: none;
+    cursor: pointer;
+}

@@ -1,0 +1,16 @@
+.app {
+ display: grid;
+ grid-template-rows: 9.375rem auto; 
+}
+
+.app_main {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 1.25rem 0.08rem;
+}
+
+.task_column {
+  width: 33.33%;
+  /* background-color: tomato; */
+  margin: 1.25rem;
+}
